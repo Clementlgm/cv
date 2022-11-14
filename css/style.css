@@ -3,4 +3,9 @@ body {
   height: 100vh;
 }
 
+button {
+  height: 40px;
+  color: blue;
+}
+
 /*# sourceMappingURL=style.css.map */
