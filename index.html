@@ -5,11 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/e56d87e3b6.js"
+      crossorigin="anonymous"
+    ></script>
     <title>CV | Accueil</title>
   </head>
   <body>
     <form name="contact" method="post" data-netlify="true"></form>
     <input type="text" name="name" placeholder="Name" />
     <button type="submit">send</button>
+    <form name="contact" method="POST" data-netlify="true">
+      <i class="far fa-envelope-open prefix"></i>
+      <input type="text" name="email" placeholder="Votre email" />
+      <button type="submit">
+        <i class="fa-solid fa-paper-plane postfix"></i>
+      </button>
+    </form>
   </body>
 </html>
